@@ -212,8 +212,7 @@ btn:hover
   right: 0;
 
 }
-.aside .nav-toggler
-{
+.aside .nav-toggler {
   height: 40px;
   width: 45px;
   border: 1px solid var(--bg-black-50);
@@ -223,12 +222,13 @@ btn:hover
   top: 20px;
   border-radius: 5px;
   background: var(--bg-black-100);
-  display: none;
+  display: grid; /* Change display property to grid */
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
   position: relative;
-
+  grid-template-columns: auto; /* Set the grid to have auto-sized columns */
+  grid-template-rows: auto; /* Set the grid to have auto-sized rows */
 }
 .aside .nav-toggler span
 {
