@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="color/style-switcher.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="color/color-1.css" class="alternate-style" title="color-1" disabled>
+  <link rel="stylesheet" href="color/color-2.css" class="alternate-style" title="color-2" disabled>
+  <link rel="stylesheet" href="color/color-3.css" class="alternate-style" title="color-3" disabled>
+  <link rel="stylesheet" href="color/color-4.css" class="alternate-style" title="color-4" disabled>
+  <link rel="stylesheet" href="color/color-5.css" class="alternate-style" title="color-5" disabled>
+  <link rel="stylesheet" href="css/style-switcher.css">
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="aside">
+      <div class="logo">
+        <a href="#"><span>O</span>BSU</a>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+      </div>
+      <ul class="nav">
+        <li><a href="home.html" class="active"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="about.html"> <i class="fa fa-user"> </i>About</a></li>
+        <li><a href="services.html"> <i class="fa fa-list"> </i>Services</a></li>
+        <li><a href="portfolio.html"> <i class="fa fa-briefcase"> </i> portifolio</a></li>
+        <li><a href="contact me.html"> <i class="fa fa-comments"> </i> contact</a></li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <section class="portfolio section" id="portifolio">
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <h2 class="title is-2">portfolio</h2>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <h2 class="title is-3">my last projects :</h2>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column is-one-third">
+              <div class="portfolio-item">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="c:\Users\Siblings\Downloads\portifollo-obsu--master (1)\portifollo-obsu--master\portfolio\portfolio-6.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-one-third">
+              <div class="portfolio-item">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="photo/portfolio-1.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-one-third">
+              <div class="portfolio-item">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="photo/portfolio-2.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column is-one-third">
+              <div class="portfolio-item">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="photo/portfolio-3.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-one-third">
+              <div class="portfolio-item">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="photo/portfolio-6.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column is-one-third">
+              <div class="portfolio-item">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="photo/portfolio-4.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <footer class="footer">
+        <div class="content has-text-centered">
+          <div>
+            <a href="https://www.facebook.com/yourfacebookprofile" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://github.com/yourgithubprofile" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.instagram.com/yourinstagramprofile" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.linkedin.com/in/yourlinkedinprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+          <div>
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+      <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+          <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+          <i class="fas"></i>
+        </div>
+        <h4>Theme colors</h4>
+        <div class="colors">
+          <span class="color-1" onclick="setActivestyle('color-1')"></span>
+          <span class="color-2" onclick="setActivestyle('color-2')"></span>
+          <span class="color-3" onclick="setActivestyle('color-3')"></span>
+          <span class="color-4" onclick="setActivestyle('color-4')"></span>
+          <span class="color-5" onclick="setActivestyle('color-5')"></span>
+        </div>
+      </div>
+    </div>
+</section>
+     <!-- Bulma JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/js/bulma.min.js"></script>
+     <!-- Style Switcher JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="js/style-switcher.js"></script>
+     <script src="js/script.js"></script>
+ </body>
+ 
+ </html>      
