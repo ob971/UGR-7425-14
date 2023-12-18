@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!---=====css file====-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="color/style-switcher.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!----style switcher------>
+<link rel="stylesheet" href="color/color-1.css" class="alternate-style" title="color-1"disabled>
+<link rel="stylesheet" href="color/color-2.css" class="alternate-style" title="color-2"disabled>
+<link rel="stylesheet" href="color/color-3.css" class="alternate-style" title="color-3"disabled>
+<link rel="stylesheet" href="color/color-4.css" class="alternate-style" title="color-4"disabled>
+<link rel="stylesheet" href="color/color-5.css" class="alternate-style" title="color-5"dissbled>
+<link rel="stylesheet" href="color/style-switcer.css">
+<body>
+  <!--------====main cantainer start--===-->
+    <div class="main-container">
+      <!---===aside start==---->
+      <div class="aside">
+        <div class="logo">
+          <a href="#"><span>O</span>BSU</a>
+          <div class="nav-toggler">
+            <span></span>
+          </div>
+        </div>
+        <ul class="nav">
+          <li><a href="home.html" class="active"><i class="fa fa-home"></i>Home</a></li>
+          <li><a href="about.html"> <i class="fa fa-user"> </i>About</a></li>
+          <li><a href="services.html"> <i class="fa fa-list"> </i>Services</a></li>
+          <li><a href="portfolio.html"> <i class="fa fa-briefcase"> </i> portifolio</a></li>
+          <li><a href="contact me.html"> <i class="fa fa-comments"> </i> contact</a></li>
+        </ul>
+      </div>
+      <!--===aside end==-->
+      <!---main content start----->
+      <div class="main-content">
+         <!----services section start----->
+     <section class="service section" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="section-title padd-15">
+            <h2>service</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-----service item start-->
+          <div class="service-item padd-15">
+            <div class="service-item-inner">
+              <div class="icon">
+                <i class="fa fa-coffee" aria-hidden="true"></i>>
+              </div>
+              <h4>web design</h4>
+              <p>assess the effectiveness, efficiency, to control and 
+                Training and Capacity Building:</p>
+            </div>
+          </div>
+          <!---service item start---->
+            <!-----service item start-->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-desktop" aria-hidden="true"></i>
+                </div>
+                <h4>System design</h4>
+                <p> Creating architectural and technical designs for software systems to meet specified requirement
+                </p>
+              </div>
+            </div>
+            <!---service item start----> 
+            <!-----service item start-->
+            <div class="service-item">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class=" fas fa-medkit"></i>
+                </div>
+                <h4>Coding and implementation</h4>
+              </p>
+              Writing and testing code to build software applications based on design specifications.
+              </p>
+              </div>
+            </div>
+            <!---service item start---->
+             
+             <!-----service item start-->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon">
+                  <i class="fa fa-certificate" aria-hidden="true"></i>
+  
+                  </div>
+                  <h4>Testing and quality assurance</h4>
+                  <p>
+                     Conducting thorough testing to identify and fix bugs and ensure software functionality and reliability
+                 </p>
+                </div>
+              </div>
+            <!---service item start---->
+             <!-----service item start-->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                <i class="fa fa-bug" aria-hidden="true"></i>
+
+                </div>
+                <h4>Maintenance and support</h4>
+                <p>
+                  Providing ongoing support, troubleshooting, and updates to software systems after deployment
+                </p>
+              </div>
+            </div>
+            <!---service item start---->
+            <!-----service item start-->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+
+                </div>
+                <h4>Project management</h4>
+                <p>
+                Overseeing the planning, coordination, and execution of software development projects to ensure timely delivery and client satisfaction.
+                </p>
+              </div>
+            </div>
+            <!---service item start---->
+        </div>
+      </div>
+     </section>
+     <!----------services section end-->
+     <footer class="footer">
+      <div>
+        <div>
+          <a href="https://www.facebook.com/yourfacebookprofile" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://github.com/yourgithubprofile" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.instagram.com/yourinstagramprofile" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.linkedin.com/in/yourlinkedinprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+        <div>
+          <p>&copy; 2023 Your Name. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+        <!----style switcher start-------->
+   <div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin" ></i>
+    </div>
+    <div class="day-night s-icon">
+      <i class="fas"></i>
+    </div>
+    <h4>Theme colors</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActivestyle('color-1')"></span>
+      <span class="color-2" onclick="setActivestyle('color-2')"></span>
+      <span class="color-3" onclick="setActivestyle('color-3')"></span>
+      <span class="color-4" onclick="setActivestyle('color-4')"></span>
+      <span class="color-5" onclick="setActivestyle('color-5')"></span>
+    </div>
+
+   </div>
+   <!--====---style switcher end----------->
+   
+   <!-----------Style switcher js------------------>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="js/style-switcher.js"></script>
+<script src="js/script.js"></script>
+   
+   <!--====---style switcher start----------->
+    </html>
+    </body>
