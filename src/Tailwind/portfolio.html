@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style-switcher.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-gray-100">
+    <div class="flex">
+        <!-- Aside -->
+        <div class="lg:w-1/4 bg-gray-800 text-white">
+            <div class="p-4">
+                <div class="flex items-center justify-between">
+                    <a href="#" class="text-3xl font-bold text-blue-500">OBSU</a>
+                    <div class="lg:hidden cursor-pointer text-gray-300 hover:text-white" id="mobile-menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+                <div class="mt-4 hidden lg:block">
+                    <ul>
+                        <li>
+                            <a href="home.html" class="flex items-center py-2 px-4 text-white hover:bg-gray-700">
+                                <i class="fas fa-home mr-2"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="flex items-center py-2 px-4 text-white hover:bg-gray-700">
+                                <i class="fas fa-user mr-2"></i>
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="services.html" class="flex items-center py-2 px-4 text-white hover:bg-gray-700">
+                                <i class="fas fa-list mr-2"></i>
+                                Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html" class="flex items-center py-2 px-4 text-white hover:bg-gray-700">
+                                <i class="fas fa-briefcase mr-2"></i>
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="flex items-center py-2 px-4 text-white hover:bg-gray-700">
+                                <i class="fas fa-comments mr-2"></i>
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Overlay -->
+        <div class="lg:hidden fixed inset-0 bg-gray-800 bg-opacity-75 z-50 hidden" id="mobile-menu">
+            <div class="flex justify-end p-4">
+                <div class="cursor-pointer text-gray-300 hover:text-white" id="mobile-menu-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="p-4">
+                <ul>
+                    <!-- Include the same menu items as in the desktop version -->
+                    <li>
+                        <a href="home.html" class="flex items-center py-2 px-4 text-white hover:bg-gray-700">
+                            <i class="fas fa-home mr-2"></i>
+                            Home
+                        </a>
+                    </li>
+                    <!-- Repeat for other menu items -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="w-3/4 p-8">
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My Last Projects:</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Portfolio Items -->
+                        <div class="col-md-4 portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="photo/portfolio-6.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Items -->
+                        <div class="col-md-4 portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="photo/portfolio-2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Items -->
+                        <div class="col-md-4 portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="photo/portfolio-3.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Additional Portfolio Items on the right -->
+                        <div class="col-md-4 portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="photo/portfolio-4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Additional Portfolio Items on the right -->
+                        <div class="col-md-4 portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="photo/portfolio-5.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Additional Portfolio Items on the right -->
+                        <div class="col-md-4 portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="photo/portfolio-6.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer Section -->
+            <footer class="text-center mt-8">
+                <div class="mb-4">
+                    <a href="https://www.facebook.com/yourfacebookprofile" class="inline-block px-4 py-2 mx-2 text-blue-500 hover:underline"
+                        target="_blank" rel="noopener noreferrer">Facebook</a>
+                    <a href="https://github.com/yourgithubprofile" class="inline-block px-4 py-2 mx-2 text-blue-500 hover:underline"
+                        target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.instagram.com/yourinstagramprofile" class="inline-block px-4 py-2 mx-2 text-blue-500 hover:underline"
+                        target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.linkedin.com/in/yourlinkedinprofile" class="inline-block px-4 py-2 mx-2 text-blue-500 hover:underline"
+                        target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+                <p class="text-gray-600">&copy; 2023 Your Name. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+</body>
+
+</html>
